@@ -40,3 +40,27 @@ h1 {
     left: 50%;
     transform:translate(-50%, -50%);
 }
+
+/* LOADER END */
+
+/* Image Container */
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Image Container END */
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width:600px) {
+    h1{
+        font-size:29px;
+    }
+    .image-container{
+        margin: 10px;
+    }
+}

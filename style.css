@@ -1,3 +1,6 @@
+/* GOOGLE FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 html {
     /* box-sizing explain: without box-sizing, every time you add padding to any element, the page
     could strech. Say your page is 100% of the viewport's width.
@@ -8,9 +11,14 @@ html {
 
 body {
     margin: 0;
-    /* "vh stands for view-port height (100 is the full height). 
-    This will stretch the backgound to cover the full hight of the screen
-    even when the content isn't doing so. */
-    min-height: 100vh;
-    background-color: gray ;
+    font-family:'Lobster', sans-serif;
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top:25px;
+    margin-bottom: 15px;
+    font-size: 48px;
+    letter-spacing: 1px;
 }
